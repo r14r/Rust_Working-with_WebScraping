@@ -1,0 +1,10 @@
+branches:
+  except:
+    - servo
+language: rust
+rust:
+  - nightly
+  - beta
+  - stable
+  - 1.36.0
+script: scripts/travis-build.sh
